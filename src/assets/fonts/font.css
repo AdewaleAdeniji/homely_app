@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "geist-light";
+  src: url("./Geist-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "geist-light";
+  src: url("./Geist-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "geist-regular";
+  src: url("./Geist-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "geist-regular";
+  src: url("./Geist-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "geist-bold";
+  src: url("./Geist-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "geist-bold";
+  src: url("./Geist-Bold.woff2") format("woff2");
+}

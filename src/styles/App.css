@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.brand-bg {
+  background: #0380f7;
+  color: #fff;
+}
+.login-footer {
+  top: 85vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  color: #7b7a7d;
+}
+.signup-process-inactive {
+  color: #7b7a7d;
+}
+.divider-bg {
+  background: #515d651a;
+}
+.divider-bg-active {
+  background: #01000540;
+}
+.setup-page-container {
+  height: 100vh;
+  padding: 20px; 
+}
+.setup-page {
+  height: 100%;
+  overflow: scroll;
+  width: 100%;
+  background: #0380f7;
+}
+/* media queries */
+
+@media(max-width: 600px) {
+  .login-footer {
+    top: 99vh;
+  }
+}

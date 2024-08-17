@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import url('./antd.css');
+@import url('./App.css');
+@import url('./globals.css');
+@import url('../assets/fonts/font.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background: #fff !important;
+}
+body {
+  margin: 0;
+  font-family: 'Onest';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+div {
+  font-family: 'Onest';
+}
